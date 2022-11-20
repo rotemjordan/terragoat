@@ -186,7 +186,7 @@
     "vlq": "2.0.4",
     "vrsource-tslint-rules": "6.0.0"
   },
-  "// 4": "Overwrite graceful-fs to a version that does not rely on the 'natives' package. This fixes gulp for >= 10.13, more information: #28213",
+  "// 4": "Overwrite graceful-fs to a version that does not rely on the 'natives' package.This fixes gulp for >= 10.13, more information: #28213",
   "// 5": "Ensure a single version of webdriver-manager so it is hoisted as the integration tests depend on it being found at ../../node_modules/webdriver-manager",
   "// 6": "Ensure that `@babel/*` packages match the below versions to avoid conflicts with `types/babel__*`",
   "// 7": "Ensure that transitive dependencies on `https-proxy-agent` are at minimum v5 as older versions patch NodeJS directly, breaking tools like webdriver which is used by the karma-sauce-launcher as an example.",
